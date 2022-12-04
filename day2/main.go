@@ -2,13 +2,12 @@ package main
 
 import (
 	"fmt"
-	"io/ioutil"
-	"log"
-	"strings"
+
+	"github.com/devkvlt/aoc2022/utils"
 )
 
 func main() {
-	guide := readLines()
+	guide := utils.ReadLines("input")
 
 	// Part 1
 	var total1 int
@@ -39,12 +38,4 @@ func score(theirs, mine int) int {
 		return (9*x*x - 15*x + 6) / 2 // f(2)=6, f(1)=0, f(0)=3, god bless Lagrange
 	}
 	return mine + f(x)
-}
-
-func readLines() []string {
-	bytes, err := ioutil.ReadFile("input")
-	if err != nil {
-		log.Fatal(err)
-	}
-	return strings.Split(strings.TrimRight(string(bytes), "\n"), "\n")
 }

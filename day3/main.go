@@ -2,14 +2,14 @@ package main
 
 import (
 	"fmt"
-	"io/ioutil"
-	"log"
 	"strings"
 	"unicode"
+
+	"github.com/devkvlt/aoc2022/utils"
 )
 
 func main() {
-	lines := readLines()
+	lines := utils.ReadLines("input")
 
 	// Part 1
 	var total1 int
@@ -49,12 +49,4 @@ func priority(item rune) int {
 		return int(item - 'a' + 1)
 	}
 	return int(item - 'A' + 27)
-}
-
-func readLines() []string {
-	bytes, err := ioutil.ReadFile("input")
-	if err != nil {
-		log.Fatal(err)
-	}
-	return strings.Split(strings.TrimRight(string(bytes), "\n"), "\n")
 }
