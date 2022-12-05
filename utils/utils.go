@@ -1,13 +1,13 @@
 package utils
 
 import (
-	"io/ioutil"
 	"log"
+	"os"
 	"strings"
 )
 
 func ReadLines(input string) []string {
-	bytes, err := ioutil.ReadFile(input)
+	bytes, err := os.ReadFile(input)
 	if err != nil {
 		log.Fatal(err)
 	}
