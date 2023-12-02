@@ -14,9 +14,11 @@
 | 8   | [Treetop Tree House](https://adventofcode.com/2022/day/8)      | [main.go](./2022/day08/main.go) |
 | 9   | [Rope Bridge](https://adventofcode.com/2022/day/9)             | [main.go](./2022/day09/main.go) |
 | 10  | [Cathode-Ray Tube](https://adventofcode.com/2022/day/10)       | [main.go](./2022/day10/main.go) |
+| 11  | [Monkey in the Middle](https://adventofcode.com/2022/day/11)   | [main.go](./2022/day11/main.go) |
 
 ## 2023
 
-| Day | Problem                                            | Solution                        |
-| --- | -------------------------------------------------- | ------------------------------- |
-| 1   | [Trebuchet?!](https://adventofcode.com/2023/day/1) | [main.go](./2023/day01/main.go) |
+| Day | Problem                                               | Solution                        |
+| --- | ----------------------------------------------------- | ------------------------------- |
+| 1   | [Trebuchet?!](https://adventofcode.com/2023/day/1)    | [main.go](./2023/day01/main.go) |
+| 2   | [Cube Conundrum](https://adventofcode.com/2023/day/2) | [main.go](./2023/day02/main.go) |
