@@ -5,7 +5,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/devkvlt/aoc2022/utils"
+	"github.com/devkvlt/aoc/utils"
 )
 
 func main() {

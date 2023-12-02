@@ -1,3 +1,3 @@
-module github.com/devkvlt/aoc2022
+module github.com/devkvlt/aoc
 
 go 1.19

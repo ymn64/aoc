@@ -6,8 +6,8 @@ import (
 	"strings"
 )
 
-func ReadLines(input string) []string {
-	bytes, err := os.ReadFile(input)
+func ReadLines(path string) []string {
+	bytes, err := os.ReadFile(path)
 	if err != nil {
 		log.Fatal(err)
 	}
