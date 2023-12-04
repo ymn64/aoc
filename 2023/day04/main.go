@@ -58,16 +58,11 @@ func part1(lines []string) {
 
 func part2(lines []string) {
 	n := len(lines)
-
 	copies := make([]int, n)
-
-	for i := 0; i < n; i++ {
-		copies[i] = 1
-	}
-
 	sum := n
 
 	for i := 0; i < n; i++ {
+		copies[i]++
 		got := got(lines[i])
 		for j := 0; j < copies[i]; j++ {
 			for k := 1; k <= got && i+k < n; k++ {
