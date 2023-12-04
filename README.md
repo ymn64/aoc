@@ -16,6 +16,7 @@
 | 10  | [Cathode-Ray Tube](https://adventofcode.com/2022/day/10)        | [main.go](./2022/day10/main.go) |
 | 11  | [Monkey in the Middle](https://adventofcode.com/2022/day/11)    | [main.go](./2022/day11/main.go) |
 | 12  | [Hill Climbing Algorithm](https://adventofcode.com/2022/day/12) | [main.go](./2022/day12/main.go) |
+| 13  | [Distress Signal](https://adventofcode.com/2022/day/13)         | [main.go](./2022/day13/main.go) |
 
 ## 2023
 
