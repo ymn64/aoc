@@ -23,3 +23,4 @@
 | 1   | [Trebuchet?!](https://adventofcode.com/2023/day/1)    | [main.go](./2023/day01/main.go) |
 | 2   | [Cube Conundrum](https://adventofcode.com/2023/day/2) | [main.go](./2023/day02/main.go) |
 | 3   | [Gear Ratios](https://adventofcode.com/2023/day/3)    | [main.go](./2023/day03/main.go) |
+| 4   | [Scratchcards](https://adventofcode.com/2023/day/4)   | [main.go](./2023/day04/main.go) |
