@@ -28,3 +28,4 @@
 | 3   | [Gear Ratios](https://adventofcode.com/2023/day/3)                     | [main.go](./2023/day03/main.go) |
 | 4   | [Scratchcards](https://adventofcode.com/2023/day/4)                    | [main.go](./2023/day04/main.go) |
 | 5   | [If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/5) | [main.go](./2023/day05/main.go) |
+| 6   | [Wait For It](https://adventofcode.com/2023/day/6)                     | [main.go](./2023/day06/main.go) |
