@@ -71,7 +71,7 @@ func part2() {
 		}
 
 		for i := 0; i < len(first); i++ {
-			e := 1 - i&1<<1 // 1 if i is even, 0 if odd
+			e := 1 - (i%2)*2 // 1 if i is even, -1 otherwise
 			sum += e * first[i]
 		}
 	}
