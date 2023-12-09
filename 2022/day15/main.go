@@ -1,8 +1,8 @@
 // NOTE: Very challenging problem. Brute-forcing part 1 with sets of positions
-// takes 2 or 3 seconds but that's not doable in part 2. Instead the problem
-// should be solved on paper with elementary geometry and a little bit of
-// trickery. The key trick in my solution is the use of interval merging. Good
-// luck!
+// takes 2 or 3 seconds to yield a result but that's not doable in part 2.
+// Instead the problem should be solved on paper with elementary geometry and a
+// little bit of trickery. The key trick in my solution is the use of interval
+// merging. Good luck!
 
 package main
 
@@ -25,12 +25,12 @@ func dist(a, b Pos) int {
 }
 
 type Sensor struct {
-	pos    Pos
+	Pos
 	radius int
 }
 
-func parseSensors(filename string) []Sensor {
-	lines := utils.ReadLines(filename)
+func parseSensors() []Sensor {
+	lines := utils.ReadLines("input")
 
 	sensors := make([]Sensor, len(lines))
 
@@ -44,31 +44,19 @@ func parseSensors(filename string) []Sensor {
 	return sensors
 }
 
-type Interval struct {
-	start, end int
-}
-
-func emptyInterval(s Sensor, y int) (Interval, bool) {
-	r := s.radius - abs(s.pos.y-y)
-	if r < 0 {
-		return Interval{}, false
-	}
-	return Interval{s.pos.x - r, s.pos.x + r}, true
-}
+type Interval struct{ start, end int }
 
 func mergedIntervals(sensors []Sensor, y int) []Interval {
 	intervals := []Interval{}
 
-	for _, sensor := range sensors {
-		interval, ok := emptyInterval(sensor, y)
-		if ok {
-			intervals = append(intervals, interval)
+	for _, s := range sensors {
+		r := s.radius - abs(s.y-y)
+		if r > 0 {
+			intervals = append(intervals, Interval{s.x - r, s.x + r})
 		}
 	}
 
-	slices.SortFunc(intervals, func(a, b Interval) int {
-		return a.start - b.start
-	})
+	slices.SortFunc(intervals, func(a, b Interval) int { return a.start - b.start })
 
 	merged := []Interval{intervals[0]}
 
@@ -87,9 +75,7 @@ func mergedIntervals(sensors []Sensor, y int) []Interval {
 }
 
 func part1() {
-	// sensors := parseSensors("sample")
-	// y := 10
-	sensors := parseSensors("input")
+	sensors := parseSensors()
 	y := 2000000
 
 	merged := mergedIntervals(sensors, y)
@@ -103,9 +89,7 @@ func part1() {
 }
 
 func part2() {
-	// sensors := parseSensors("sample")
-	// maximum := 20
-	sensors := parseSensors("input")
+	sensors := parseSensors()
 	maximum := 4000000
 
 	tuningFreq := -1

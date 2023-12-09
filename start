@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# Usage: ./start
+#        ./start <year> <day>
+
+if [ -z "$1" ] || [ -z "$2" ]; then
+  year=$(ls -1 | grep -E '^[0-9]{4}$' | sort | tail -1)
+  day=$(($(ls -1 "$year" | sort | tail -1 | sed 's/day0//' | sed 's/day//') + 1))
+else
+  year=$1
+  day=$2
+fi
+
+session=$(cat .session)
+
+dir="$year/$(printf "day%02d" "$day")"
+
+mkdir "$dir" || exit
+cd "$dir" || exit
+
+curl -s "https://adventofcode.com/$year/day/$day/input" --cookie "session=${session}" -o input
+
+echo 'package main
+
+import (
+	"fmt"
+
+	"github.com/devkvlt/aoc/utils"
+)
+
+var lines = utils.ReadLines("input")
+
+func main() {
+	for _, line := range lines {
+		fmt.Println(line)
+	}
+}' >main.go
