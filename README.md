@@ -33,3 +33,5 @@
 | 7   | [Camel Cards](https://adventofcode.com/2023/day/7)                     | [main.go](./2023/day07/main.go) |
 | 8   | [Haunted Wasteland](https://adventofcode.com/2023/day/8)               | [main.go](./2023/day08/main.go) |
 | 9   | [Mirage Maintenance](https://adventofcode.com/2023/day/9)              | [main.go](./2023/day09/main.go) |
+| 10  | [Pipe Maze](https://adventofcode.com/2023/day/10)                      | [main.go](./2023/day10/main.go) |
+| 11  | [Cosmic Expansion](https://adventofcode.com/2023/day/11)               | [main.go](./2023/day11/main.go) |
