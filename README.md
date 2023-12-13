@@ -35,3 +35,5 @@
 | 9   | [Mirage Maintenance](https://adventofcode.com/2023/day/9)              | [main.go](./2023/day09/main.go) |
 | 10  | [Pipe Maze](https://adventofcode.com/2023/day/10)                      | [main.go](./2023/day10/main.go) |
 | 11  | [Cosmic Expansion](https://adventofcode.com/2023/day/11)               | [main.go](./2023/day11/main.go) |
+| 12  | [Hot Springs](https://adventofcode.com/2023/day/12)                    | [main.go](./2023/day12/main.go) |
+| 13  | [Point of Incidence](https://adventofcode.com/2023/day/13)             | [main.go](./2023/day13/main.go) |

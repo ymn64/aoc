@@ -26,11 +26,11 @@ var start Pos
 
 func init() {
 A:
-	for y := 0; y < len(maze); y++ {
-		for x := 0; x < len(maze[0]); x++ {
-			if maze[y][x] == 'S' {
-				start = Pos{x, y}
-				maze[y] = strings.Replace(maze[y], "S", valueOfS(start), 1)
+	for row := 0; row < len(maze); row++ {
+		for col := 0; col < len(maze[0]); col++ {
+			if maze[row][col] == 'S' {
+				start = Pos{col, row}
+				maze[row] = strings.Replace(maze[row], "S", valueOfS(start), 1)
 				break A
 			}
 		}
