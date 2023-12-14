@@ -26,7 +26,6 @@ A:
 
 func pointOfIncidence(grid []string, smudge int) int {
 	for row := 1; row < len(grid); row++ {
-
 		above := slices.Clone(grid[:row])
 		slices.Reverse(above)
 

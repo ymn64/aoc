@@ -78,7 +78,7 @@ var (
 )
 
 func reverse(dir Pos) Pos {
-	return Pos{-1 * dir.x, -1 * dir.y}
+	return Pos{-dir.x, -dir.y}
 }
 
 var validDirs = map[byte][]Pos{
