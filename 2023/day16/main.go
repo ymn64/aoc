@@ -6,13 +6,14 @@ import (
 	"github.com/devkvlt/aoc/utils"
 )
 
-var lines = utils.ReadLines("input")
+var grid = utils.ReadLines("input")
+
+var (
+	height = len(grid)
+	width  = len(grid[0])
+)
 
 type Pos struct{ x, y int }
-
-func isValid(p Pos) bool {
-	return 0 <= p.x && p.x < len(grid[0]) && 0 <= p.y && p.y < len(grid)
-}
 
 var (
 	up    = Pos{0, -1}
@@ -21,21 +22,10 @@ var (
 	right = Pos{1, 0}
 )
 
+func isValid(p Pos) bool         { return 0 <= p.x && p.x < width && 0 <= p.y && p.y < height }
 func advance(p Pos, dir Pos) Pos { return Pos{p.x + dir.x, p.y + dir.y} }
 func rotateCW(dir Pos) Pos       { return Pos{dir.y, dir.x} }
 func rotateACW(dir Pos) Pos      { return Pos{-dir.y, -dir.x} }
-
-type Grid [][]byte
-
-var grid = make(Grid, len(lines))
-
-func init() {
-	for i := 0; i < len(lines); i++ {
-		for j := 0; j < len(lines[0]); j++ {
-			grid[i] = append(grid[i], lines[i][j])
-		}
-	}
-}
 
 type Ray struct{ pos, dir Pos }
 
@@ -96,16 +86,16 @@ func part1() {
 func part2() {
 	best := 0
 
-	for col := 0; col < len(grid); col++ {
-		start1 := Ray{Pos{col, 0}, down}
-		start2 := Ray{Pos{col, len(grid) - 1}, up}
+	for x := 0; x < width; x++ {
+		start1 := Ray{Pos{x, 0}, down}
+		start2 := Ray{Pos{x, height - 1}, up}
 
 		best = max(best, countEnergized(start1), countEnergized(start2))
 	}
 
-	for row := 0; row < len(grid[0]); row++ {
-		start1 := Ray{Pos{0, row}, right}
-		start2 := Ray{Pos{len(grid) - 1, row}, left}
+	for y := 0; y < height; y++ {
+		start1 := Ray{Pos{0, y}, right}
+		start2 := Ray{Pos{width - 1, y}, left}
 
 		best = max(best, countEnergized(start1), countEnergized(start2))
 	}
