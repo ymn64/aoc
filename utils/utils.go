@@ -22,3 +22,11 @@ func Atoi(s string) int {
 	}
 	return i
 }
+
+func Hextoi(hex string) int {
+	i64, err := strconv.ParseInt(hex, 16, 64)
+	if err != nil {
+		log.Fatal(err)
+	}
+	return int(i64)
+}
