@@ -15,6 +15,19 @@ func ReadLines(path string) []string {
 	return strings.Split(strings.TrimSpace(string(bytes)), "\n")
 }
 
+func Chunks(path string) [][]string {
+	bytes, err := os.ReadFile(path)
+	if err != nil {
+		log.Fatal(err)
+	}
+	chunks := strings.Split(strings.TrimSpace(string(bytes)), "\n\n")
+	split := make([][]string, len(chunks))
+	for i, chunk := range chunks {
+		split[i] = strings.Split(chunk, "\n")
+	}
+	return split
+}
+
 func Atoi(s string) int {
 	i, err := strconv.Atoi(s)
 	if err != nil {

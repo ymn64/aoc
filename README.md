@@ -22,24 +22,25 @@
 
 ## 2023
 
-| Day | Problem                                                                | Solution                        |
-| --- | ---------------------------------------------------------------------- | ------------------------------- |
-| 1   | [Trebuchet?!](https://adventofcode.com/2023/day/1)                     | [main.go](./2023/day01/main.go) |
-| 2   | [Cube Conundrum](https://adventofcode.com/2023/day/2)                  | [main.go](./2023/day02/main.go) |
-| 3   | [Gear Ratios](https://adventofcode.com/2023/day/3)                     | [main.go](./2023/day03/main.go) |
-| 4   | [Scratchcards](https://adventofcode.com/2023/day/4)                    | [main.go](./2023/day04/main.go) |
-| 5   | [If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/5) | [main.go](./2023/day05/main.go) |
-| 6   | [Wait For It](https://adventofcode.com/2023/day/6)                     | [main.go](./2023/day06/main.go) |
-| 7   | [Camel Cards](https://adventofcode.com/2023/day/7)                     | [main.go](./2023/day07/main.go) |
-| 8   | [Haunted Wasteland](https://adventofcode.com/2023/day/8)               | [main.go](./2023/day08/main.go) |
-| 9   | [Mirage Maintenance](https://adventofcode.com/2023/day/9)              | [main.go](./2023/day09/main.go) |
-| 10  | [Pipe Maze](https://adventofcode.com/2023/day/10)                      | [main.go](./2023/day10/main.go) |
-| 11  | [Cosmic Expansion](https://adventofcode.com/2023/day/11)               | [main.go](./2023/day11/main.go) |
-| 12  | [Hot Springs](https://adventofcode.com/2023/day/12)                    | [main.go](./2023/day12/main.go) |
-| 13  | [Point of Incidence](https://adventofcode.com/2023/day/13)             | [main.go](./2023/day13/main.go) |
-| 14  | [Parabolic Reflector Dish](https://adventofcode.com/2023/day/14)       | [main.go](./2023/day14/main.go) |
-| 15  | [Lens Library](https://adventofcode.com/2023/day/15)                   | [main.go](./2023/day15/main.go) |
-| 16  | [The Floor Will Be Lava](https://adventofcode.com/2023/day/16)         | [main.go](./2023/day16/main.go) |
-| 17  | [Clumsy Crucible](https://adventofcode.com/2023/day/17)                | [main.go](./2023/day17/main.go) |
-| 18  | [Lavaduct Lagoon](https://adventofcode.com/2023/day/18)                | [main.go](./2023/day18/main.go) |
-| 20  | [Pulse Propagation](https://adventofcode.com/2023/day/20)              | [main.go](./2023/day20/main.go) |
+| Day | Problem                                                                | Solution                                |
+| --- | ---------------------------------------------------------------------- | --------------------------------------- |
+| 1   | [Trebuchet?!](https://adventofcode.com/2023/day/1)                     | [main.go](./2023/day01/main.go)         |
+| 2   | [Cube Conundrum](https://adventofcode.com/2023/day/2)                  | [main.go](./2023/day02/main.go)         |
+| 3   | [Gear Ratios](https://adventofcode.com/2023/day/3)                     | [main.go](./2023/day03/main.go)         |
+| 4   | [Scratchcards](https://adventofcode.com/2023/day/4)                    | [main.go](./2023/day04/main.go)         |
+| 5   | [If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/5) | [main.go](./2023/day05/main.go)         |
+| 6   | [Wait For It](https://adventofcode.com/2023/day/6)                     | [main.go](./2023/day06/main.go)         |
+| 7   | [Camel Cards](https://adventofcode.com/2023/day/7)                     | [main.go](./2023/day07/main.go)         |
+| 8   | [Haunted Wasteland](https://adventofcode.com/2023/day/8)               | [main.go](./2023/day08/main.go)         |
+| 9   | [Mirage Maintenance](https://adventofcode.com/2023/day/9)              | [main.go](./2023/day09/main.go)         |
+| 10  | [Pipe Maze](https://adventofcode.com/2023/day/10)                      | [main.go](./2023/day10/main.go)         |
+| 11  | [Cosmic Expansion](https://adventofcode.com/2023/day/11)               | [main.go](./2023/day11/main.go)         |
+| 12  | [Hot Springs](https://adventofcode.com/2023/day/12)                    | [main.go](./2023/day12/main.go)         |
+| 13  | [Point of Incidence](https://adventofcode.com/2023/day/13)             | [main.go](./2023/day13/main.go)         |
+| 14  | [Parabolic Reflector Dish](https://adventofcode.com/2023/day/14)       | [main.go](./2023/day14/main.go)         |
+| 15  | [Lens Library](https://adventofcode.com/2023/day/15)                   | [main.go](./2023/day15/main.go)         |
+| 16  | [The Floor Will Be Lava](https://adventofcode.com/2023/day/16)         | [main.go](./2023/day16/main.go)         |
+| 17  | [Clumsy Crucible](https://adventofcode.com/2023/day/17)                | [main.go](./2023/day17/main.go)         |
+| 18  | [Lavaduct Lagoon](https://adventofcode.com/2023/day/18)                | [main.go](./2023/day18/main.go)         |
+| 19  | [Aplenty](https://adventofcode.com/2023/day/19)                        | [main.go](./2023/day19/main.go)(Part 1) |
+| 20  | [Pulse Propagation](https://adventofcode.com/2023/day/20)              | [main.go](./2023/day20/main.go)         |
