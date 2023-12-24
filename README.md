@@ -45,3 +45,4 @@
 | 19  | [Aplenty](https://adventofcode.com/2023/day/19)                        | [main.go](./2023/day19/main.go) (Part 1) |
 | 20  | [Pulse Propagation](https://adventofcode.com/2023/day/20)              | [main.go](./2023/day20/main.go)          |
 | 21  | [Step Counter](https://adventofcode.com/2023/day/21)                   | [main.go](./2023/day21/main.go) (Part 1) |
+| 24  | [Never Tell Me The Odds](https://adventofcode.com/2023/day/24)         | [main.go](./2023/day24/main.go)          |
