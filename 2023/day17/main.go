@@ -4,7 +4,7 @@ import (
 	"container/heap"
 	"fmt"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
 // https://pkg.go.dev/container/heap#example-package-PriorityQueue
@@ -43,7 +43,7 @@ func (pq *PQ) Pop() any {
 	return state
 }
 
-var grid = utils.ReadLines("input")
+var grid = aoc.ReadLines("input")
 
 var (
 	height = len(grid)

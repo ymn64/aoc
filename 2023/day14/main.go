@@ -5,13 +5,13 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
 var grid []string
 
 func reset() {
-	grid = utils.ReadLines("input")
+	grid = aoc.ReadLines("input")
 }
 
 func transpose() {

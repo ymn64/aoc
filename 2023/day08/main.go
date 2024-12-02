@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
-var lines = utils.ReadLines("input")
+var lines = aoc.ReadLines("input")
 
 func parseNodes() (map[string][2]string, []string) {
 	nodes := map[string][2]string{}

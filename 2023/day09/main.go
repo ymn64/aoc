@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
-var lines = utils.ReadLines("input")
+var lines = aoc.ReadLines("input")
 
 func isZero(s []int) bool {
 	for _, v := range s {
@@ -34,7 +34,7 @@ func part1() {
 
 		history := []int{}
 		for _, num := range nums {
-			history = append(history, utils.Atoi(num))
+			history = append(history, aoc.Atoi(num))
 		}
 
 		last := []int{history[len(history)-1]}
@@ -60,7 +60,7 @@ func part2() {
 
 		history := []int{}
 		for _, num := range nums {
-			history = append(history, utils.Atoi(num))
+			history = append(history, aoc.Atoi(num))
 		}
 
 		first := []int{history[0]}

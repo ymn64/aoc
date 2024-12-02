@@ -5,10 +5,10 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
-var lines = utils.ReadLines("input")
+var lines = aoc.ReadLines("input")
 
 type (
 	Hand     = string
@@ -129,7 +129,7 @@ func solveWith(cmpFunc func(a, b Hand) int) {
 	for i, line := range lines {
 		list[i] = Pair{
 			strings.Fields(line)[0],
-			utils.Atoi(strings.Fields(line)[1]),
+			aoc.Atoi(strings.Fields(line)[1]),
 		}
 	}
 

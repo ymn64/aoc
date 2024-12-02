@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
-var lines = utils.ReadLines("input")
+var lines = aoc.ReadLines("input")
 
 func waysToWin(time, record string) int {
 	t, _ := strconv.Atoi(time)

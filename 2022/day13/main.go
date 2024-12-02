@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
 // lazyUnpack unpacks the top level of a packet.
@@ -136,7 +136,7 @@ func part2(lines []string) {
 }
 
 func main() {
-	lines := utils.ReadLines("input")
+	lines := aoc.ReadLines("input")
 
 	part1(lines) // 6568
 	part2(lines) // 19493

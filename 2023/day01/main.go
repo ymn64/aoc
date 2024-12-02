@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
 func isDigit(c byte) bool {
@@ -16,7 +16,7 @@ func btoi(c byte) int {
 }
 
 func main() {
-	lines := utils.ReadLines("input")
+	lines := aoc.ReadLines("input")
 
 	// Part 1
 	sum := 0

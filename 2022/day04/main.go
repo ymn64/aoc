@@ -5,11 +5,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
 func main() {
-	lines := utils.ReadLines("input")
+	lines := aoc.ReadLines("input")
 
 	var total1 int
 	var total2 int

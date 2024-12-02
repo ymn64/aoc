@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
-var lines = utils.ReadLines("input")
+var lines = aoc.ReadLines("input")
 
 func area(x, y []int, boundary int) int {
 	// https://en.wikipedia.org/wiki/Shoelace_formula
@@ -30,7 +30,7 @@ func area(x, y []int, boundary int) int {
 
 func parse1(fields []string) (byte, int) {
 	dir := fields[0][0]
-	steps := utils.Atoi(fields[1])
+	steps := aoc.Atoi(fields[1])
 
 	return dir, steps
 }
@@ -38,7 +38,7 @@ func parse1(fields []string) (byte, int) {
 func parse2(fields []string) (byte, int) {
 	m := map[byte]byte{'0': 'R', '1': 'D', '2': 'L', '3': 'U'}
 	dir := m[fields[2][7]]
-	steps := utils.Hextoi(fields[2][2:7])
+	steps := aoc.Hextoi(fields[2][2:7])
 
 	return dir, steps
 }

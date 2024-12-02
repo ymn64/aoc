@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
-var grid = utils.ReadLines("input")
+var grid = aoc.ReadLines("input")
 
 var (
 	height = len(grid)

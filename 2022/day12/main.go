@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
 type Map [][]byte
@@ -123,7 +123,7 @@ func part2(lines []string) {
 }
 
 func main() {
-	lines := utils.ReadLines("input")
+	lines := aoc.ReadLines("input")
 
 	part1(lines) // 423
 	part2(lines) // 416

@@ -5,10 +5,10 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
-var steps = strings.Split(utils.ReadLines("input")[0], ",")
+var steps = strings.Split(aoc.ReadLines("input")[0], ",")
 
 func hash(s string) int {
 	n := 0
@@ -53,7 +53,7 @@ func part2() {
 			if li == -1 {
 				boxes[bi] = append(boxes[bi], label)
 			}
-			focalLengths[label] = utils.Atoi(s[len(s)-1:])
+			focalLengths[label] = aoc.Atoi(s[len(s)-1:])
 		}
 	}
 

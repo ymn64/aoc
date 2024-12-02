@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
 type Range struct {
@@ -129,7 +129,7 @@ func part2(lines []string) {
 }
 
 func main() {
-	lines := utils.ReadLines("input")
+	lines := aoc.ReadLines("input")
 
 	part1(lines) // 174137457
 	part2(lines) // 1493866

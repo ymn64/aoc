@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
 type Pulse int8
@@ -114,7 +114,7 @@ var queue []Signal
 var modules = map[string]Module{}
 
 func reset() {
-	lines := utils.ReadLines("input")
+	lines := aoc.ReadLines("input")
 
 	for _, line := range lines {
 		var mod Module
@@ -258,7 +258,7 @@ func part2() {
 		}
 	}
 
-	fmt.Println(utils.LCM(pressesList))
+	fmt.Println(aoc.LCM(pressesList))
 }
 
 func main() {

@@ -17,10 +17,10 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
-var maze = utils.ReadLines("input")
+var maze = aoc.ReadLines("input")
 
 var start Pos
 

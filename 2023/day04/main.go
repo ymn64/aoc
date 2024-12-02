@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
 type Set = map[string]struct{}
@@ -76,7 +76,7 @@ func part2(lines []string) {
 }
 
 func main() {
-	lines := utils.ReadLines("input")
+	lines := aoc.ReadLines("input")
 
 	part1(lines)
 	part2(lines)

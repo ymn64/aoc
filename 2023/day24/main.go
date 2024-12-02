@@ -5,7 +5,7 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
 type Hailstone struct{ x, y, z, vx, vy, vz float64 }
@@ -13,7 +13,7 @@ type Hailstone struct{ x, y, z, vx, vy, vz float64 }
 var hailstones []Hailstone
 
 func init() {
-	lines := utils.ReadLines("input")
+	lines := aoc.ReadLines("input")
 
 	hailstones = make([]Hailstone, len(lines))
 

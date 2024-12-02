@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
-var lines = utils.ReadLines("input")
+var lines = aoc.ReadLines("input")
 
 var cache = make(map[string]int)
 
@@ -71,7 +71,7 @@ func solveWith(repeat int) {
 		n := len(rawNums)
 		nums := make([]int, n)
 		for i := 0; i < n; i++ {
-			nums[i] = utils.Atoi(rawNums[i])
+			nums[i] = aoc.Atoi(rawNums[i])
 		}
 
 		for i := 1; i < repeat; i++ {

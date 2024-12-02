@@ -3,11 +3,11 @@ package main
 import (
 	"fmt"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
 func main() {
-	guide := utils.ReadLines("input")
+	guide := aoc.ReadLines("input")
 
 	// Part 1
 	var total1 int

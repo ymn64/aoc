@@ -3,13 +3,13 @@ package main
 import (
 	"fmt"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
 type Pos struct{ x, y int }
 
 var (
-	universe  = utils.ReadLines("input")
+	universe  = aoc.ReadLines("input")
 	positions []Pos
 	emptyRows []int
 	emptyCols []int

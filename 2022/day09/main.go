@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
 type rope struct {
@@ -21,7 +21,7 @@ type motion struct {
 }
 
 func main() {
-	lines := utils.ReadLines("input")
+	lines := aoc.ReadLines("input")
 
 	series := make([]motion, len(lines))
 	for i, line := range lines {

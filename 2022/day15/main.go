@@ -11,7 +11,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
 type Pos struct{ x, y int }
@@ -30,14 +30,14 @@ type Sensor struct {
 }
 
 func parseSensors() []Sensor {
-	lines := utils.ReadLines("input")
+	lines := aoc.ReadLines("input")
 
 	sensors := make([]Sensor, len(lines))
 
 	for i := 0; i < len(lines); i++ {
 		fields := strings.Fields(lines[i])
-		sensor := Pos{utils.Atoi(fields[2][2 : len(fields[2])-1]), utils.Atoi(fields[3][2 : len(fields[3])-1])}
-		beacon := Pos{utils.Atoi(fields[8][2 : len(fields[8])-1]), utils.Atoi(fields[9][2:])}
+		sensor := Pos{aoc.Atoi(fields[2][2 : len(fields[2])-1]), aoc.Atoi(fields[3][2 : len(fields[3])-1])}
+		beacon := Pos{aoc.Atoi(fields[8][2 : len(fields[8])-1]), aoc.Atoi(fields[9][2:])}
 		sensors[i] = Sensor{sensor, dist(sensor, beacon)}
 	}
 

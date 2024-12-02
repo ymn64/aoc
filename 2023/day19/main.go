@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
 type Rule struct {
@@ -28,7 +28,7 @@ func parseWorkflow(line string) (string, []Rule) {
 		}
 		category := cond[0]
 		split := strings.Split(cond, ":")
-		threshold := utils.Atoi(split[0][2:])
+		threshold := aoc.Atoi(split[0][2:])
 		next := split[1]
 		mi := 1
 		ma := 4000
@@ -52,7 +52,7 @@ func parsePart(line string) Part {
 	for _, r := range rs {
 		k := strings.Split(r, "=")[0][0]
 		v := strings.Split(r, "=")[1]
-		p[k] = utils.Atoi(v)
+		p[k] = aoc.Atoi(v)
 	}
 	return p
 }
@@ -63,7 +63,7 @@ var (
 )
 
 func init() {
-	chunks := utils.Chunks("input")
+	chunks := aoc.Chunks("input")
 
 	workflows = make(map[string][]Rule, len(chunks[0]))
 	parts = make([]Part, len(chunks[1]))

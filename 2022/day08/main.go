@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
 var forest [][]int
 
 func main() {
 	// Parse trees
-	lines := utils.ReadLines("input")
+	lines := aoc.ReadLines("input")
 	forest = make([][]int, len(lines))
 	for i := 0; i < len(lines); i++ {
 		for _, char := range lines[i] {

@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
 type dir struct {
@@ -35,7 +35,7 @@ func list(d *dir) []*dir {
 }
 
 func main() {
-	lines := utils.ReadLines("input")
+	lines := aoc.ReadLines("input")
 	root := dir{}
 	var cwd *dir
 

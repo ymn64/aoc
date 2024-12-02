@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
 func part1(lines []string) int {
@@ -68,7 +68,7 @@ func part2(lines []string) {
 }
 
 func main() {
-	lines := utils.ReadLines("input")
+	lines := aoc.ReadLines("input")
 	fmt.Println(part1(lines)) // 12980
 	part2(lines)              // BRJLFULP
 }
