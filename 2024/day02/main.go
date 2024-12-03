@@ -27,7 +27,7 @@ func safe(report []int) bool {
 	d0 := report[1] - report[0]
 	for i := 1; i < len(report); i++ {
 		d := report[i] - report[i-1]
-		if !aoc.SameSign(d0, d) || d == 0 || aoc.Abs(d) > 3 {
+		if d == 0 || aoc.Abs(d) > 3 || d*d0 < 0 {
 			return false
 		}
 	}
