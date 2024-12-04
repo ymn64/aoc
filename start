@@ -25,10 +25,10 @@ echo 'package main
 import (
 	"fmt"
 
-	"github.com/devkvlt/aoc/utils"
+	"github.com/devkvlt/aoc"
 )
 
-var lines = utils.ReadLines("input")
+var lines = aoc.ReadLines("input")
 
 func main() {
 	for _, line := range lines {
