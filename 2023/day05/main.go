@@ -129,7 +129,7 @@ func part2(lines []string) {
 }
 
 func main() {
-	lines := aoc.ReadLines("input")
+	lines := aoc.Lines("input")
 
 	part1(lines) // 174137457
 	part2(lines) // 1493866

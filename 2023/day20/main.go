@@ -114,7 +114,7 @@ var queue []Signal
 var modules = map[string]Module{}
 
 func reset() {
-	lines := aoc.ReadLines("input")
+	lines := aoc.Lines("input")
 
 	for _, line := range lines {
 		var mod Module

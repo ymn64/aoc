@@ -6,7 +6,7 @@ import (
 	"github.com/devkvlt/aoc"
 )
 
-var grid = aoc.ReadLines("input")
+var grid = aoc.Lines("input")
 
 var size = len(grid)
 

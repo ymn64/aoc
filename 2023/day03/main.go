@@ -47,7 +47,7 @@ func capture(line string, j int) int {
 }
 
 func main() {
-	lines := aoc.ReadLines("input")
+	lines := aoc.Lines("input")
 
 	// Part 1
 	sum := 0

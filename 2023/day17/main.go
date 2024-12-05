@@ -43,7 +43,7 @@ func (pq *PQ) Pop() any {
 	return state
 }
 
-var grid = aoc.ReadLines("input")
+var grid = aoc.Lines("input")
 
 var (
 	height = len(grid)

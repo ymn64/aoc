@@ -11,7 +11,7 @@ import (
 var grid []string
 
 func reset() {
-	grid = aoc.ReadLines("input")
+	grid = aoc.Lines("input")
 }
 
 func transpose() {

@@ -20,7 +20,7 @@ import (
 	"github.com/devkvlt/aoc"
 )
 
-var maze = aoc.ReadLines("input")
+var maze = aoc.Lines("input")
 
 var start Pos
 

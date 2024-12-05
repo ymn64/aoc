@@ -87,7 +87,7 @@ func parseMonkey(lines []string) monkey {
 }
 
 func main() {
-	lines := aoc.ReadLines("input")
+	lines := aoc.Lines("input")
 
 	n := (len(lines) + 1) / 7
 

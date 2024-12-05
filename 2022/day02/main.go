@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	guide := aoc.ReadLines("input")
+	guide := aoc.Lines("input")
 
 	// Part 1
 	var total1 int

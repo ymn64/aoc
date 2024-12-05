@@ -11,7 +11,7 @@ var forest [][]int
 
 func main() {
 	// Parse trees
-	lines := aoc.ReadLines("input")
+	lines := aoc.Lines("input")
 	forest = make([][]int, len(lines))
 	for i := 0; i < len(lines); i++ {
 		for _, char := range lines[i] {

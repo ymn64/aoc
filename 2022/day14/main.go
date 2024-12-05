@@ -8,7 +8,7 @@ import (
 	"github.com/devkvlt/aoc"
 )
 
-var lines = aoc.ReadLines("input")
+var lines = aoc.Lines("input")
 
 type Map [][]byte
 

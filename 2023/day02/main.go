@@ -59,7 +59,7 @@ func power(g []subset) int {
 }
 
 func main() {
-	lines := aoc.ReadLines("input")
+	lines := aoc.Lines("input")
 
 	games := make([][]subset, len(lines))
 

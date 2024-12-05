@@ -8,7 +8,7 @@ import (
 	"github.com/devkvlt/aoc"
 )
 
-var lines = aoc.ReadLines("input")
+var lines = aoc.Lines("input")
 
 func waysToWin(time, record string) int {
 	t, _ := strconv.Atoi(time)

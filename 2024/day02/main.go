@@ -11,7 +11,7 @@ import (
 var reports [][]int
 
 func init() {
-	lines := aoc.ReadLines("input")
+	lines := aoc.Lines("input")
 	reports = make([][]int, len(lines))
 	for i, line := range lines {
 		fields := strings.Fields(line)

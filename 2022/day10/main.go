@@ -68,7 +68,7 @@ func part2(lines []string) {
 }
 
 func main() {
-	lines := aoc.ReadLines("input")
+	lines := aoc.Lines("input")
 	fmt.Println(part1(lines)) // 12980
 	part2(lines)              // BRJLFULP
 }

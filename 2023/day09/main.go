@@ -7,7 +7,7 @@ import (
 	"github.com/devkvlt/aoc"
 )
 
-var lines = aoc.ReadLines("input")
+var lines = aoc.Lines("input")
 
 func isZero(s []int) bool {
 	for _, v := range s {

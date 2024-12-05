@@ -15,7 +15,7 @@ var (
 )
 
 func init() {
-	lines := aoc.ReadLines("input")
+	lines := aoc.Lines("input")
 	n = len(lines)
 	left = make([]int, n)
 	right = make([]int, n)

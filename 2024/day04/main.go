@@ -8,7 +8,7 @@ import (
 )
 
 var (
-	grid   = aoc.ReadLines("input")
+	grid   = aoc.Lines("input")
 	height = len(grid)
 	width  = len(grid[0])
 )

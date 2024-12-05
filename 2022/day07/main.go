@@ -35,7 +35,7 @@ func list(d *dir) []*dir {
 }
 
 func main() {
-	lines := aoc.ReadLines("input")
+	lines := aoc.Lines("input")
 	root := dir{}
 	var cwd *dir
 

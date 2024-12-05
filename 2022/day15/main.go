@@ -30,7 +30,7 @@ type Sensor struct {
 }
 
 func parseSensors() []Sensor {
-	lines := aoc.ReadLines("input")
+	lines := aoc.Lines("input")
 
 	sensors := make([]Sensor, len(lines))
 

@@ -8,6 +8,7 @@
 | 2   | [Red-Nosed Reports](https://adventofcode.com/2024/day/2)  | [main.go](./2024/day02/main.go) |
 | 3   | [Mull It Over](https://adventofcode.com/2024/day/3)       | [main.go](./2024/day03/main.go) |
 | 4   | [Ceres Search](https://adventofcode.com/2024/day/4)       | [main.go](./2024/day04/main.go) |
+| 5   | [Print Queue](https://adventofcode.com/2024/day/5)        | [main.go](./2024/day05/main.go) |
 
 ## 2023
 

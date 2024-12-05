@@ -8,7 +8,7 @@ import (
 	"github.com/devkvlt/aoc"
 )
 
-var steps = strings.Split(aoc.ReadLines("input")[0], ",")
+var steps = strings.Split(aoc.Lines("input")[0], ",")
 
 func hash(s string) int {
 	n := 0

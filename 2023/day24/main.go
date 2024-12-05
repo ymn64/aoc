@@ -13,7 +13,7 @@ type Hailstone struct{ x, y, z, vx, vy, vz float64 }
 var hailstones []Hailstone
 
 func init() {
-	lines := aoc.ReadLines("input")
+	lines := aoc.Lines("input")
 
 	hailstones = make([]Hailstone, len(lines))
 

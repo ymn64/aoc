@@ -9,7 +9,7 @@ import (
 type Pos struct{ x, y int }
 
 var (
-	universe  = aoc.ReadLines("input")
+	universe  = aoc.Lines("input")
 	positions []Pos
 	emptyRows []int
 	emptyCols []int

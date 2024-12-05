@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	lines := aoc.ReadLines("input")
+	lines := aoc.Lines("input")
 
 	var total1 int
 	var total2 int

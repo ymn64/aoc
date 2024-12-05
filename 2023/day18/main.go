@@ -7,7 +7,7 @@ import (
 	"github.com/devkvlt/aoc"
 )
 
-var lines = aoc.ReadLines("input")
+var lines = aoc.Lines("input")
 
 func area(x, y []int, boundary int) int {
 	// https://en.wikipedia.org/wiki/Shoelace_formula

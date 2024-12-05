@@ -21,7 +21,7 @@ type motion struct {
 }
 
 func main() {
-	lines := aoc.ReadLines("input")
+	lines := aoc.Lines("input")
 
 	series := make([]motion, len(lines))
 	for i, line := range lines {
