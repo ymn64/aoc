@@ -9,7 +9,8 @@
 | 3   | [Mull It Over](https://adventofcode.com/2024/day/3)       | [main.go](./2024/day03/main.go), [main.js](./2024/day03/main.js), [main.lua](./2024/day03/main.lua), [main.py](./2024/day03/main.py) |
 | 4   | [Ceres Search](https://adventofcode.com/2024/day/4)       | [main.go](./2024/day04/main.go), [main.js](./2024/day04/main.js), [main.lua](./2024/day03/main.lua), [main.py](./2024/day04/main.py) |
 | 5   | [Print Queue](https://adventofcode.com/2024/day/5)        | [main.go](./2024/day05/main.go), [main.js](./2024/day05/main.js), [main.py](./2024/day05/main.py)                                    |
-| 10  | [Hoof It](https://adventofcode.com/2024/day/10)           | [main.go](./2024/day010/main.go)                                                                                                     |
+| 10  | [Hoof It](https://adventofcode.com/2024/day/10)           | [main.go](./2024/day10/main.go)                                                                                                      |
+| 11  | [Plutonian Pebbles](https://adventofcode.com/2024/day/11) | [main.go](./2024/day11/main.go)                                                                                                      |
 
 ## 2023
 
