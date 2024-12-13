@@ -26,16 +26,13 @@ func init() {
 
 type Pos struct{ x, y int }
 
-func valid(p Pos) bool    { return 0 <= p.x && p.x < width && 0 <= p.y && p.y < height }
-func at(p Pos) byte       { return grid[p.y][p.x] }
-func up(p Pos) Pos        { return Pos{p.x, p.y - 1} }
-func down(p Pos) Pos      { return Pos{p.x, p.y + 1} }
-func left(p Pos) Pos      { return Pos{p.x - 1, p.y} }
-func right(p Pos) Pos     { return Pos{p.x + 1, p.y} }
-func upLeft(p Pos) Pos    { return Pos{p.x - 1, p.y - 1} }
-func upRight(p Pos) Pos   { return Pos{p.x + 1, p.y - 1} }
-func downRight(p Pos) Pos { return Pos{p.x + 1, p.y + 1} }
-func downLeft(p Pos) Pos  { return Pos{p.x - 1, p.y + 1} }
+func valid(p Pos) bool { return 0 <= p.x && p.x < width && 0 <= p.y && p.y < height }
+func at(p Pos) byte    { return grid[p.y][p.x] }
+
+func up(p Pos) Pos    { return Pos{p.x, p.y - 1} }
+func down(p Pos) Pos  { return Pos{p.x, p.y + 1} }
+func left(p Pos) Pos  { return Pos{p.x - 1, p.y} }
+func right(p Pos) Pos { return Pos{p.x + 1, p.y} }
 
 func neighbors(p Pos) []Pos {
 	var neighbors []Pos

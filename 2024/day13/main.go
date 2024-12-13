@@ -12,8 +12,7 @@ var machines []Machine
 
 func init() {
 	chunks := aoc.Chunks("input")
-	n := len(chunks)
-	machines = make([]Machine, n)
+	machines = make([]Machine, len(chunks))
 	for i, chunk := range chunks {
 		fmt.Sscanf(chunk[0], "Button A: X+%d, Y+%d", &machines[i].xA, &machines[i].yA)
 		fmt.Sscanf(chunk[1], "Button B: X+%d, Y+%d", &machines[i].xB, &machines[i].yB)
