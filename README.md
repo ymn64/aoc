@@ -14,6 +14,7 @@
 | 9   | [Disk Fragmenter](https://adventofcode.com/2024/day/9)    | [main.go](./2024/day09/main.go)                                                                                                      |
 | 10  | [Hoof It](https://adventofcode.com/2024/day/10)           | [main.go](./2024/day10/main.go)                                                                                                      |
 | 11  | [Plutonian Pebbles](https://adventofcode.com/2024/day/11) | [main.go](./2024/day11/main.go)                                                                                                      |
+| 12  | [Garden Groups](https://adventofcode.com/2024/day/12)     | [main.go](./2024/day12/main.go)                                                                                                      |
 | 13  | [Claw Contraption](https://adventofcode.com/2024/day/13)  | [main.go](./2024/day13/main.go)                                                                                                      |
 
 ## 2023
