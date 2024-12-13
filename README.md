@@ -4,7 +4,7 @@
 
 | Day | Problem                                                   | Solution                                                                                                                             |
 | --- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| 1   | [Historian Hysteria](https://adventofcode.com/2024/day/1) | [main.go](./2024/day01/main.go)                                                                                                      |
+| 1   | [Historian Hysteria](https://adventofcode.com/2024/day/1) | [main.go](./2024/day01/main.go), [main.js](./2024/day01/main.js), [main.lua](./2024/day01/main.lua), [main.py](./2024/day01/main.py) |
 | 2   | [Red-Nosed Reports](https://adventofcode.com/2024/day/2)  | [main.go](./2024/day02/main.go), [main.js](./2024/day02/main.js), [main.lua](./2024/day02/main.lua), [main.py](./2024/day02/main.py) |
 | 3   | [Mull It Over](https://adventofcode.com/2024/day/3)       | [main.go](./2024/day03/main.go), [main.js](./2024/day03/main.js), [main.lua](./2024/day03/main.lua), [main.py](./2024/day03/main.py) |
 | 4   | [Ceres Search](https://adventofcode.com/2024/day/4)       | [main.go](./2024/day04/main.go), [main.js](./2024/day04/main.js), [main.lua](./2024/day03/main.lua), [main.py](./2024/day04/main.py) |
