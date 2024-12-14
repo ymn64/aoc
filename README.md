@@ -2,20 +2,21 @@
 
 ## 2024
 
-| Day | Problem                                                   | Solution                                                                                                                             |
-| --- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| 1   | [Historian Hysteria](https://adventofcode.com/2024/day/1) | [main.go](./2024/day01/main.go), [main.js](./2024/day01/main.js), [main.lua](./2024/day01/main.lua), [main.py](./2024/day01/main.py) |
-| 2   | [Red-Nosed Reports](https://adventofcode.com/2024/day/2)  | [main.go](./2024/day02/main.go), [main.js](./2024/day02/main.js), [main.lua](./2024/day02/main.lua), [main.py](./2024/day02/main.py) |
-| 3   | [Mull It Over](https://adventofcode.com/2024/day/3)       | [main.go](./2024/day03/main.go), [main.js](./2024/day03/main.js), [main.lua](./2024/day03/main.lua), [main.py](./2024/day03/main.py) |
-| 4   | [Ceres Search](https://adventofcode.com/2024/day/4)       | [main.go](./2024/day04/main.go), [main.js](./2024/day04/main.js), [main.lua](./2024/day03/main.lua), [main.py](./2024/day04/main.py) |
-| 5   | [Print Queue](https://adventofcode.com/2024/day/5)        | [main.go](./2024/day05/main.go), [main.js](./2024/day05/main.js), [main.py](./2024/day05/main.py)                                    |
-| 6   | [Guard Gallivant](https://adventofcode.com/2024/day/6)    | [main.go](./2024/day06/main.go)                                                                                                      |
-| 7   | [Bridge Repair](https://adventofcode.com/2024/day/7)      | [main.go](./2024/day07/main.go)                                                                                                      |
-| 9   | [Disk Fragmenter](https://adventofcode.com/2024/day/9)    | [main.go](./2024/day09/main.go)                                                                                                      |
-| 10  | [Hoof It](https://adventofcode.com/2024/day/10)           | [main.go](./2024/day10/main.go)                                                                                                      |
-| 11  | [Plutonian Pebbles](https://adventofcode.com/2024/day/11) | [main.go](./2024/day11/main.go)                                                                                                      |
-| 12  | [Garden Groups](https://adventofcode.com/2024/day/12)     | [main.go](./2024/day12/main.go)                                                                                                      |
-| 13  | [Claw Contraption](https://adventofcode.com/2024/day/13)  | [main.go](./2024/day13/main.go)                                                                                                      |
+| Day | Problem                                                      | Solution                                                                                                                             |
+| --- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| 1   | [Historian Hysteria](https://adventofcode.com/2024/day/1)    | [main.go](./2024/day01/main.go), [main.js](./2024/day01/main.js), [main.lua](./2024/day01/main.lua), [main.py](./2024/day01/main.py) |
+| 2   | [Red-Nosed Reports](https://adventofcode.com/2024/day/2)     | [main.go](./2024/day02/main.go), [main.js](./2024/day02/main.js), [main.lua](./2024/day02/main.lua), [main.py](./2024/day02/main.py) |
+| 3   | [Mull It Over](https://adventofcode.com/2024/day/3)          | [main.go](./2024/day03/main.go), [main.js](./2024/day03/main.js), [main.lua](./2024/day03/main.lua), [main.py](./2024/day03/main.py) |
+| 4   | [Ceres Search](https://adventofcode.com/2024/day/4)          | [main.go](./2024/day04/main.go), [main.js](./2024/day04/main.js), [main.lua](./2024/day03/main.lua), [main.py](./2024/day04/main.py) |
+| 5   | [Print Queue](https://adventofcode.com/2024/day/5)           | [main.go](./2024/day05/main.go), [main.js](./2024/day05/main.js), [main.py](./2024/day05/main.py)                                    |
+| 6   | [Guard Gallivant](https://adventofcode.com/2024/day/6)       | [main.go](./2024/day06/main.go)                                                                                                      |
+| 7   | [Bridge Repair](https://adventofcode.com/2024/day/7)         | [main.go](./2024/day07/main.go)                                                                                                      |
+| 8   | [Resonant Collinearity](https://adventofcode.com/2024/day/8) | [main.go](./2024/day08/main.go)                                                                                                      |
+| 9   | [Disk Fragmenter](https://adventofcode.com/2024/day/9)       | [main.go](./2024/day09/main.go)                                                                                                      |
+| 10  | [Hoof It](https://adventofcode.com/2024/day/10)              | [main.go](./2024/day10/main.go)                                                                                                      |
+| 11  | [Plutonian Pebbles](https://adventofcode.com/2024/day/11)    | [main.go](./2024/day11/main.go)                                                                                                      |
+| 12  | [Garden Groups](https://adventofcode.com/2024/day/12)        | [main.go](./2024/day12/main.go)                                                                                                      |
+| 13  | [Claw Contraption](https://adventofcode.com/2024/day/13)     | [main.go](./2024/day13/main.go)                                                                                                      |
 
 ## 2023
 
